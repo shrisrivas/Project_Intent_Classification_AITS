@@ -9,8 +9,8 @@ Dataset: As part of this assignment, you are provided with the ATIS (Airline Tra
  2. In the real-world, getting the labels for the entire dataset can be quite expensive. In such cases, semi supervised/few-shot text classification research papers and models can be your ally! For this problem, please do your own Literature Review and choose a suitable research paper to implement using just 10% of the data in the atis_intents_train.csv and evaluate your model’s performance on the atis_intents_test.csv.
 
 Guidelines: 
-1.	Please use either TensorFlow/Keras or PyTorch to solve the assignment as per your convenience. 
-2.	For evaluation, please report the Accuracy, F1 Score (Micro) and F1 Score (Macro) on the Test Set.
+1.	I have used TensorFlow/Keras 
+2.	For evaluation, Accuracy, F1 Score and F1 Score
 
 Algorithm used:
 LSTM: 
@@ -18,3 +18,4 @@ LSTM:
 Research Paper:
 https://arxiv.org/abs/2001.09330
 https://www.sciencedirect.com/science/article/pii/S1877050918320374
+
